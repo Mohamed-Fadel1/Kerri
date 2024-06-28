@@ -1,0 +1,202 @@
+
+/* SHARED  */
+
+html {
+    scroll-padding-top: 50px;
+}
+
+:root {
+--main-color: #e65f78
+}
+
+.main-color {
+   color: #e65f78;
+}
+
+
+.max-width-500 {
+    max-width: 500px;
+}
+
+
+
+.text-gray {
+    color: rgba(255, 255, 255, 0.75) 
+}
+
+/* START HOME SECTION */
+#home {
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#home .home-layer button:hover {
+    background-color: white !important;
+    color: black !important;
+}
+#home .home-layer button {
+    transition: all 0.5s;
+}
+
+.home-setting {
+    top: 30%;
+    background-color: #2b2424;
+    padding: 5px;
+
+}
+
+.mouse-icon div {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 200px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-brand {
+    color: black;
+}
+.navbar {
+    box-shadow: 2PX 1px 2px #f4f4f4;
+}
+
+
+/* END HOME SECTION */
+
+
+/* START ABOUT SECTION */
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+/* END ABOUT SECTION */
+
+
+
+/* START SERVICES SECTION */
+
+#services {
+    background-color: #f8f9fa;
+}
+
+#services .item h5::after {
+    content: "";
+width: 40px;
+height: 2px;
+background-color: var(--main-color);
+position: absolute;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+transition: all 0.5s;
+
+}
+
+
+#services .item:hover h5::after {
+    width: 70px;
+}
+
+/* END SERVICES SECTION */
+
+
+/* START SECTION SECTION */
+
+#section .btn {
+    background-color: var(--main-color);
+}
+
+/* END SECTION SECTION */
+
+
+/* START CLIENT SECTION */
+
+.carousel-indicators [data-bs-target] {
+    width: 14px;
+    height: 5px;
+    background-color: var(--main-color);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+
+.carousel-indicators .active {
+    width: 22px;
+}
+
+
+/* END CLIENT SECTION */
+
+/* START PORTFOLIO SECTION */
+
+.nav-pills .nav-link.active, .nav-pills .show  .nav-link {
+color: white;
+background-color: var(--main-color);
+border-radius: 100px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 100px;
+}
+.nav-pills .nav-link:hover {
+    color: white;
+    background-color: var(--main-color);
+    border-radius: 100px;
+
+}
+
+.portfolio-item .portfolio-layer {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s;
+}
+
+.portfolio-item:hover .portfolio-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-item .portfolio-content {
+    transition: all 0.3s;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+.portfolio-item:hover img {
+    transition: all 0.3s;
+}
+
+.portfolio-item:hover .portfolio-content {
+    top: 0 !important;
+    bottom: 0;
+}
+
+/* END PORTFOLIO SECTION */
+
+
+/* START CONTACT SECTION */
+#contact input {
+    border:  1px solid  gray  ;
+}
+
+#contact .form-control {
+    border:  1px solid  gray  ;
+}
+
+#contact .btn {
+    background-color: var(--main-color);
+}
+
+
+/* END CONTACT SECTION */
